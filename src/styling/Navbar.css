@@ -1,0 +1,87 @@
+* {
+   margin:0;
+   padding: 0;
+   overflow-y: hidden;
+  
+ }
+ .nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background: rgb(43, 43, 43); */
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   background-color: #0A4EA3;
+ }
+ .logo {
+   margin-left: 2rem;
+   color: white;
+   font-size: 40px;
+ }
+ .links {
+   display: flex;
+ }
+ .links ul {
+   display: flex;
+   margin: 15px;
+ }
+ ul li {
+   margin: 0.2rem;
+   list-style: none;
+ }
+ ul li  {
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 5px;
+ }
+ ul li:hover {
+   background: grey;
+   cursor: pointer;
+   border-radius: 50%;
+ }
+ .body-head h2 {
+   color: black;
+   font-size: 2rem;
+   position: absolute;
+   top: 20%;
+   left: 15%;
+   word-spacing: 8px;
+  
+ }
+ 
+ .texts h1{
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   font-size: 1.8rem;
+ }
+ .photo{
+   position: absolute;
+   top: 33%;
+   left: 60%;
+   width: 300px;
+ }
+ /* .below-contents{
+   display: flex;
+ } */
+ .first{
+   /* border: 1px solid black; */
+   position: absolute;
+   top: 75%;
+   left: 17%;
+   padding: 30px 8rem;
+   background-color: aliceblue;
+ }
+ .second{
+   /* background-color: aqua; */
+   position: absolute;
+   top: 75%;
+   left: 52%;
+   padding: 30px 7rem;
+   background-color: aliceblue;
+ }
